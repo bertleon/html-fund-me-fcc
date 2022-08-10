@@ -37,6 +37,10 @@ async function getBalance() {
         const provider = new ethers.providers.Web3Provider(window.ethereum)
         const balance = await provider.getBalance(contractAddress)
         console.log(ethers.utils.formatEther(balance))
+    } else {
+        console.log("No metamask!")
+        document.getElementById("connectButton").innerHTML =
+            "Please connect metamask!"
     }
 }
 
@@ -59,6 +63,10 @@ async function fund() {
         } catch (error) {
             console.log(error)
         }
+    } else {
+        console.log("No metamask!")
+        document.getElementById("connectButton").innerHTML =
+            "Please connect metamask!"
     }
 }
 
@@ -74,6 +82,10 @@ async function withdraw() {
         } catch (error) {
             console.log(error)
         }
+    } else {
+        console.log("No metamask!")
+        document.getElementById("connectButton").innerHTML =
+            "Please connect metamask!"
     }
 }
 
