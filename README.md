@@ -26,3 +26,6 @@ Create a localhost metamask account
 git clone https://github.com/bertleon/html-fund-me-fcc
 ```
 
+## INTERACT WITH SIMPLE FRONTEND
+
+Hit connect then fund the contract, get the balance of the contract, or withdraw the contract
