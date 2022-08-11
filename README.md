@@ -4,7 +4,7 @@ This is a simple frontend that interacts with a smart contract project that can 
 
 ## **Project Setup**: 
 
-Need to run 
+Run 
 ```
 yarn hardhat node
 ```
