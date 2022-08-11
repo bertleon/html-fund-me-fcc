@@ -22,4 +22,7 @@ Create a localhost metamask account
 
 ### IN HTML-FUND-ME-FCC
 
+```
+git clone https://github.com/bertleon/html-fund-me-fcc
+```
 
